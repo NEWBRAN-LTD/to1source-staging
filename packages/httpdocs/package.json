@@ -1,10 +1,12 @@
 {
-  "name": "newsite",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "to1source-httpdocs",
+  "private": true,
+  "version": "0.0.1",
+  "description": "to1source.com website built with Fastify + Vue 3",
+  "main": "app.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava",
+    "start": "node ./app.mjs"
   },
   "author": "",
   "license": "ISC",
